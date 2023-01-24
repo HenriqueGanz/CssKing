@@ -103,11 +103,10 @@ span:hover{
 @media (max-width:1000px){
     * {
         background-size: 1000px;
-        overflow-x: hidden;
     }
 
     body{
-        min-width: 30rem;
+        min-width: 20rem;
         height: 100%;
         display: grid;
     }
@@ -116,15 +115,14 @@ span:hover{
         display: grid;
         justify-content: center;
         align-content: center;
-        min-width: 40rem;
+        min-width: 20rem;
         height: 100vh;
         overflow: hidden;
     }
 
     .container {
-        min-width:40rem;
+        min-width:20rem;
         height: 100%;
-
     }
 
     .title {
@@ -134,7 +132,7 @@ span:hover{
     .btn {
         min-width: 4rem;
         height: 4rem;
-        margin: 1rem 0 0 20rem;
+        margin: 1rem 0 0 18rem;
     
         font-weight: bold;
         color: #FFFFFF;
@@ -151,7 +149,7 @@ span:hover{
 
     section p {
         text-align: center;
-        font-size: 2rem;
+        font-size: 1.6rem;
     
         margin: 40rem 1rem;
 
