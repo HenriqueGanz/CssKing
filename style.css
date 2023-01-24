@@ -99,3 +99,51 @@ span:hover{
         transform: scale(1);
     }
 }
+
+@media (max-width: 768px) {
+
+    body{
+        min-width: 70rem;
+        height: 100%;
+    }
+
+    main {
+        min-width: 70rem;
+        height: 70vh;
+    }
+
+    .container {
+        min-width: 70rem;
+        height: 100%;
+    }
+
+    .title {
+        font-size: 4rem;
+    }
+
+    .btn {
+        width: 12rem;
+        height: 6rem;
+        margin: 1rem 0 0 28rem;
+    
+        font-weight: bold;
+        color: #FFFFFF;
+        font-size: 2rem;
+    
+        border: 4px solid #fc86ad ;
+        border-radius: 1rem;
+        background: #d65e78;
+    
+        transition: all .3s;
+    
+        cursor: pointer;
+    }
+
+    .container p {
+        text-align: center;
+        font-size: 4rem;
+    
+        margin: 70rem 12rem;
+    }
+    
+}
