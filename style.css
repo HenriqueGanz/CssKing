@@ -107,7 +107,7 @@ span:hover{
     }
 
     body{
-        min-width: 60rem;
+        min-width: 40rem;
         height: 100%;
         display: grid;
     }
@@ -116,13 +116,13 @@ span:hover{
         display: grid;
         justify-content: center;
         align-content: center;
-        max-width: 100rem;
+        min-width: 40rem;
         height: 100vh;
         overflow: hidden;
     }
 
     .container {
-        min-width:60rem;
+        min-width:40rem;
         height: 100%;
 
     }
@@ -132,9 +132,9 @@ span:hover{
     }
 
     .btn {
-        width: 12rem;
+        min-width: 10rem;
         height: 6rem;
-        margin: 1rem 0 0 45rem;
+        margin: 1rem 0 0 30rem;
     
         font-weight: bold;
         color: #FFFFFF;
