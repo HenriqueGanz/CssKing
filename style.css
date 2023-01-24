@@ -100,22 +100,31 @@ span:hover{
     }
 }
 
-@media (min-width: 420px), (max-width:800px){
-
-    body{
-        min-width: 40rem;
-        height: 100%;
+@media (max-width:1000px){
+    * {
+        background-size: 1000px;
         overflow-x: hidden;
     }
 
+    body{
+        min-width: 60rem;
+        height: 100%;
+        display: grid;
+    }
+
     main {
-        min-width: 40rem;
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        max-width: 100rem;
         height: 100vh;
+        overflow: hidden;
     }
 
     .container {
-        min-width: 40rem;
+        min-width:60rem;
         height: 100%;
+
     }
 
     .title {
@@ -125,7 +134,7 @@ span:hover{
     .btn {
         width: 12rem;
         height: 6rem;
-        margin: 1rem 0 0 20rem;
+        margin: 1rem 0 0 45rem;
     
         font-weight: bold;
         color: #FFFFFF;
@@ -140,11 +149,13 @@ span:hover{
         cursor: pointer;
     }
 
-    .container p {
+    section p {
         text-align: center;
-        font-size: 3.5rem;
+        font-size: 2rem;
     
-        margin: 40rem 5rem;
+        margin: 40rem 1rem;
+
+        padding: 0 2rem 0 2rem;
     }
     
 }
