@@ -100,20 +100,20 @@ span:hover{
     }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 420px), (max-width:800px){
 
     body{
-        min-width: 70rem;
+        min-width: 40rem;
         height: 100%;
     }
 
     main {
-        min-width: 70rem;
-        height: 70vh;
+        min-width: 40rem;
+        height: 100vh;
     }
 
     .container {
-        min-width: 70rem;
+        min-width: 40rem;
         height: 100%;
     }
 
@@ -124,7 +124,7 @@ span:hover{
     .btn {
         width: 12rem;
         height: 6rem;
-        margin: 1rem 0 0 28rem;
+        margin: 1rem 0 0 20rem;
     
         font-weight: bold;
         color: #FFFFFF;
@@ -141,9 +141,9 @@ span:hover{
 
     .container p {
         text-align: center;
-        font-size: 4rem;
+        font-size: 3.5rem;
     
-        margin: 70rem 12rem;
+        margin: 40rem 5rem;
     }
     
 }
